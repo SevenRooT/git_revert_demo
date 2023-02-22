@@ -30,3 +30,10 @@ var handleFormSubmit = function (event) {
 
 formEl.on('submit', handleFormSubmit);
 
+// Datepicker widget
+$(function () {
+  $('#datepicker').datepicker({
+    changeMonth: true,
+    changeYear: true,
+  });
+});
